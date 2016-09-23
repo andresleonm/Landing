@@ -115,7 +115,7 @@ Table of Contents End
 
 /* 1 - Google Font
 ------------------------------------------------------------------------*/
-@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+/*@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);------------------*/
 
 /* 1 - Google Font End 
 ------------------------------------------------------------------------*/
@@ -125,7 +125,7 @@ Table of Contents End
 ---------------------------------------------------------------------- */
 html,
 body {
-	font-family: 'Arvo', serif;
+	font-family: serif;
 	font-size: 16px;
 	overflow: hidden;
 }
