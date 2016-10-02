@@ -1,5 +1,5 @@
 <?php
-if($_REQUEST['first_name'] == '' || $_REQUEST['contact_email'] == '' ||  $_REQUEST['message'] == ''):
+if($_REQUEST['contact_email'] == '' ||  $_REQUEST['message'] == ''):
   return "error";
 endif;
 if (filter_var($_REQUEST['contact_email'], FILTER_VALIDATE_EMAIL)):
