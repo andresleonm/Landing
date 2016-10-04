@@ -99,6 +99,7 @@ span.psw {
 
 /* Modal Content/Box */
 .modal-content-login {
+    position: relative;
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
@@ -108,8 +109,9 @@ span.psw {
 /* The Close Button (x) */
 .close-login {
     position: absolute;
-    right: 25px;
-    top: 0;
+    right: 0px;
+    top: -10px;
+    
     color: #000;
     font-size: 35px;
     font-weight: bold;
