@@ -51,7 +51,7 @@ html,
 body {
 	font-family: 'Open Sans', Sans-serif;
 	font-size: 16px;
-	overflow: hidden;
+	overflow: auto;
 
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
