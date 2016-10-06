@@ -38,7 +38,7 @@ label {
 #login-btn a{
     display: inline-block;
 }
-/* Set a style for all buttons */
+/* Set a style for all buttons 
 button{
     background-color: #4CAF50;
     color: white;
@@ -47,7 +47,7 @@ button{
     border: none;
     cursor: pointer;
     width: 100%;
-}
+}*/
 
 /* Extra styles for the cancel button */
 .cancelbtn {
