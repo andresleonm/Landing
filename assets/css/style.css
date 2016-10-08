@@ -708,16 +708,6 @@ h1,h2,h3,h4,h5,h6 {
   margin-left: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Contact Section */
 .map-container img{
 	max-width: inherit;
@@ -1167,4 +1157,12 @@ footer a {
 }
 .copyright {
 	line-height: 95px;
+}
+
+#intranet{
+    display: none;
+}
+
+#cursor{
+    cursor: auto;
 }

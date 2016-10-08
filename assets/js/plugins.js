@@ -360,8 +360,8 @@ G)});
 			}, 250);
 		},
 		
-		getHash: function($link) {
-			return $link.attr('href').split('#')[1];
+		getHash: function($link) {            
+			 return $link.attr('href').split('#')[1];            
 		},
 		
 		getPositions: function() {

@@ -1,4 +1,4 @@
-.ps_ease .carousel-inner>.item {
+﻿.ps_ease .carousel-inner>.item {
     -webkit-transition-timing-function: ease;
     -moz-transition-timing-function: ease;
     -ms-transition-timing-function: ease;
@@ -703,12 +703,12 @@
     background: #000
 }
 #fw_al_001:hover {
-    cursor: -moz-grab;
-    cursor: -webkit-grab
+    /*cursor: -moz-grab;
+    cursor: -webkit-grab*/
 }
 #fw_al_001:active {
-    cursor: -moz-grabbing;
-    cursor: -webkit-grabbing
+    /*cursor: -moz-grabbing;
+    cursor: -webkit-grabbing*/
 }
 #fw_al_001>.carousel-inner>.item>img,
 #fw_al_001>.carousel-inner>.item>a>img {
@@ -786,7 +786,7 @@
     height: 25%;
     right: auto;
     margin: auto;
-    cursor: e-resize;
+    /*cursor: e-resize;*/
     overflow-x: hidden;
     overflow-y: auto
 }
@@ -37513,12 +37513,12 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     border: 1px solid #eee
 }
 #w_shop_102>.carousel-inner:hover {
-    cursor: -moz-grab;
-    cursor: -webkit-grab
+    /*cursor: -moz-grab;
+    cursor: -webkit-grab*/
 }
 #w_shop_102>.carousel-inner:active {
-    cursor: -moz-grabbing;
-    cursor: -webkit-grabbing
+    /*cursor: -moz-grabbing;
+    cursor: -webkit-grabbing*/
 }
 #w_shop_102>.carousel-inner>.item {
     overflow: hidden
@@ -37543,7 +37543,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     font-size: 0;
     margin: auto;
     padding: 2px;
-    cursor: e-resize;
+    /*cursor: e-resize;*/
     overflow-x: auto;
     text-align: left;
     overflow-y: hidden;
@@ -37592,7 +37592,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     height: 25px;
     color: #eee;
     font-size: 14px;
-    cursor: pointer;
+    /*cursor: pointer;*/
     font-weight: 400;
     overflow: hidden;
     line-height: 23px;
@@ -37842,12 +37842,12 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     padding: 25px 50px
 }
 #w_shop_103>.carousel-inner:hover {
-    cursor: -moz-grab;
-    cursor: -webkit-grab
+    /*cursor: -moz-grab;
+    cursor: -webkit-grab*/
 }
 #w_shop_103>.carousel-inner:active {
-    cursor: -moz-grabbing;
-    cursor: -webkit-grabbing
+    /*cursor: -moz-grabbing;
+    cursor: -webkit-grabbing*/
 }
 #w_shop_103>.carousel-inner>.item {
     overflow: hidden
@@ -37875,7 +37875,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     font-size: 0;
     margin: auto;
     padding: 2px;
-    cursor: e-resize;
+    /*cursor: e-resize;*/
     overflow-x: auto;
     text-align: left;
     overflow-y: hidden;
@@ -37926,7 +37926,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     height: 25px;
     color: #eee;
     font-size: 20px;
-    cursor: pointer;
+    /*cursor: pointer;*/
     font-weight: 400;
     overflow: hidden;
     line-height: 25px;
@@ -38404,12 +38404,12 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     border-radius: 3px
 }
 #w_shop_104:hover {
-    cursor: -moz-grab;
-    cursor: -webkit-grab
+    /*cursor: -moz-grab;
+    cursor: -webkit-grab*/
 }
 #w_shop_104:active {
-    cursor: -moz-grabbing;
-    cursor: -webkit-grabbing
+    /*cursor: -moz-grabbing;
+    cursor: -webkit-grabbing*/
 }
 #w_shop_104>.carousel-inner>.item {
     padding: 0 0 40px 0
@@ -38428,7 +38428,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     height: 88px;
     margin: auto;
     padding: 3px 5px;
-    cursor: e-resize;
+    /*cursor: e-resize;*/
     overflow-x: auto;
     overflow-y: hidden;
     text-align: center;
@@ -38441,7 +38441,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     height: 75px;
     margin: 0 5px;
     text-indent: 0;
-    cursor: pointer;
+    /*cursor: pointer;*/
     overflow: hidden;
     background: transparent;
     border: 1px solid #ddd;

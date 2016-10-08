@@ -662,6 +662,9 @@
 	.top-contact {
 		display: none;
 	}
+    #intranet{
+        display: block;
+    }
 	.site-banner {
 		height: 80px;
 	}
@@ -758,6 +761,9 @@
 	.top-contact {
 		display: none;
 	}
+    #intranet{
+        display: block;
+    }
 	.site-banner {
 		height: 80px;
 	}
@@ -858,6 +864,9 @@
 	.top-contact {
 		display: none;
 	}
+    #intranet{
+        display: block;
+    }
 	.site-banner {
 		height: 80px;
 	}
@@ -978,6 +987,11 @@
 	.top-contact {
 		display: none;
 	}
+    
+    #intranet{
+        display: block;
+    }
+    
 	.site-banner {
 		height: 80px;
 	}

@@ -28,7 +28,35 @@
 
 	<!-- Import Custom Responsive Styles -->
 	<link href="assets/css/responsive.css" rel="stylesheet">
+    
+    <!-- Include modernizr-2.8.3.min.js -->
+<script src="assets/js/modernizr-2.8.3.min.js"></script>
 
+<!-- Include jquery.min.js plugin -->
+<script src="assets/js/jquery-2.1.0.min.js"></script>
+
+<!-- Include magnific-popup.min.js -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+<!-- Google Maps Script -->
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyD3KeCSx_DkjZtExbNPKIgR0WUN5eWlGlw"></script>
+
+<!-- Gmap3.js For Static Maps -->
+<script src="assets/js/gmap3.js"></script>
+
+<!-- Javascript Plugins  -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- Custom Functions  -->
+<script src="assets/js/functions.js"></script>
+
+<script src="assets/js/wow.min.js"></script>
+
+<script type="text/javascript" src="assets/js/jquery.ajaxchimp.min.js"></script>
+        
+<script type="text/javascript" src="assets/js/login-pop-up.js"></script>
+    
+    <link href="assets/css/login-pop-up.css" rel="stylesheet">
 	
 	<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -124,7 +152,7 @@
             <div class="col-sm-5">
               <div class="menu-search pull-right">
                 <form role="search" class="search-form" action="#" method="get">
-                  <input class="search-field" type="text" name="s" id="s" placeholder="Search Here" required>
+                  <input class="search-field" type="text" name="s" id="s" placeholder="Buscar" required>
                   <button class="btn search-btn" type="submit"><i class="fa fa-search"></i></button>
                 </form><!-- /.search-form -->
               </div><!-- /.menu-search -->
@@ -182,7 +210,7 @@
 
                   <div id="comments" class="comments">
                     <div class="comments-area">
-                      <h3 class="comment-title"><span class="title-icon"><i class='fa fa-comments'></i></span>23 Comments</h3>
+                      <h3 class="comment-title"><span class="title-icon"><i class='fa fa-comments'></i></span>23 Comentarios</h3>
                       <div class="comments-details">
                         <ul class="comment-list">
                           <li class="parent">
@@ -466,22 +494,44 @@
             <i class="fa fa-chevron-up"></i>    
           </span>
         </div><!-- /#scroll-to-top -->
+        
+        <!-- Pop Up Login form -->
+<!-- The Modal -->
+<div id="id01" class="modal-login">
+  <!-- Modal Content -->
+  <form class="modal-content-login animate-login">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close-login" title="Close window">&times;
+      </span>
+    <div class="imgcontainer">
+      <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
 
+    <div class="container-login">
+      <label><b>Usuario</b></label>
+      <input type="text" class="input" placeholder="Nombre de usuario" name="uname" required>
 
+      <label><b>Contraseña</b></label>
+      <input type="password" class="input" placeholder="Contraseña" name="psw" required>
+        
+        <label>Recuérdame     <input id="remember-me" type="checkbox" checked="checked"> </label>
 
-        <!-- Include modernizr-2.8.3.min.js -->
-        <script src="assets/js/modernizr-2.8.3.min.js"></script>
+      <div id="login-btn" class="service-items" style="margin-bottom: 10px">
+                 <a class="btn" href="#">                  
+                  <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
+                  Ingresar
+                  </a> 
+                    <a class="btn" href="#">                  
+                  <span class="btn-icon"><i class="fa fa-times-circle"></i></span>
+                  Cancelar
+                  </a>            
+              </div>      
+    </div>
 
-        <!-- Include jquery.min.js plugin -->
-        <script src="assets/js/jquery-2.1.0.min.js"></script>
-
-        <!-- Javascript Plugins  -->
-        <script src="assets/js/plugins.js"></script>
-
-        <!-- Custom Functions  -->
-        <script src="assets/js/functions.js"></script>
-
-        <script src="assets/js/wow.min.js"></script>
+    <div class="container-login" style="background-color:#f1f1f1">         
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
 
       </body>
       </html>
